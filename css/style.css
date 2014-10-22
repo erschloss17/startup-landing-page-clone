@@ -1,12 +1,23 @@
 /* Navigation Section */
+.body{
+	margin: 0;
+	padding: 0;
+}
 .top-navigation {
 	Background-color: #fff;
 }
+
 .top-navigation > .content {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
 }
-.links {
+
+.logo {
+	padding: 0px 15px;
+	height: 70px;
+}
+.links{
 	float: right;
+	display: inline-block;
 }
