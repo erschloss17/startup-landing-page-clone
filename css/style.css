@@ -38,5 +38,11 @@
 }
 .introduction{
 	background-image: url("first-backgound.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.ul{
+	display: inline-block
+	float; right:
 }
 
