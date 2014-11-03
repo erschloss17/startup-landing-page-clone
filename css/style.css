@@ -3,10 +3,12 @@
 	Background-color: #fff;
 	margin-top: 2em;
 }
-.top-navigation > .content {
-	width: 970px;
-	height: 70px;
+.content {
 	margin: 0 auto;
+	width: 970px;
+}
+.top-navigation > .content {
+	height: 70px;
 	font-family: 'Roboto', sans-serif; 
 	font-size: 16px; 
 	color: #838994; 
@@ -23,10 +25,16 @@
 .top-navigation .links li {
     display: inline-block;
     margin-left: 25px;
+    -webkit-font-smoothing: antialiased;
+    transition: color 0.3s ease;
+}
+.top-navigation .links:hover {
+	color: red;
+	cursor: pointer;
 }
 .top-navigation .links .active {
     color: #4c5058;
-    font-weight: 500;
+    font-weight: 600;
 }
 .top-navigation .links li:hover {
     cursor: pointer;
@@ -40,7 +48,21 @@
 	background-image: url("../img/first-background.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	min-height: 1000px;
+	background-position: 0 bottom;
+	min-height: 590px;
+}
+.introduction .content > h3{
+	font-size: 3.125rem;
+	font-weight: 300;
+	margin: 0;
+	padding: 11.5rem;
+	border: 0;
+}
+.introduction .content{
+	margin-top: 15px;
+	color: white;
+	text-align: center;
+
 }
 
 
