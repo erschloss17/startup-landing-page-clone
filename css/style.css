@@ -2,6 +2,9 @@
 .top-navigation {
 	Background-color: #fff;
 	margin-top: 2em;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 .content {
 	margin: 0 auto;
@@ -93,6 +96,21 @@
 	line-height: 1.33;
 	padding-top: 13rem;
 }
+.cases .content h2{
+	text-align: center;
+	font-size: 2rem;
+	margin-top: 6rem;
+}
+.cases .devices {
+    width: 13.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
+  	img
+}
+
 
 
 
