@@ -1,7 +1,7 @@
 /* Navigation Section */
 .top-navigation {
 	Background-color: #fff;
-	margin-top: 2em;
+	/*margin-top: 2em;*/
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
@@ -9,6 +9,7 @@
 .content {
 	margin: 0 auto;
 	width: 970px;
+	text-align: center;
 }
 .top-navigation > .content {
 	height: 70px;
@@ -30,6 +31,7 @@
     margin-left: 25px;
     -webkit-font-smoothing: antialiased;
     transition: color 0.3s ease;
+    margin-right: 10px;
 }
 .top-navigation .links:hover {
 	color: red;
@@ -46,6 +48,7 @@
 .logo {
 	padding: 0px 15px;
 	height: 70px;
+	margin-left: -175px;
 }
 .introduction{
 	background-image: url("../img/first-background.jpg");
@@ -67,25 +70,39 @@
 	font-size: 1rem;
 }
 .introduction .content{
-	margin-top: 15px;
 	color: white;
 	text-align: center;
 }
 .introduction .half{
-	width: 49%;
+	/*width: 49%;*/
 	padding: 0 0.938rem;
 	display: inline-block;
 	vertical-align: bottom;
 	font-size: 1.125rem;
 	line-height: 1.2;
 }
-.half .learn {
+.button-learn {
 	text-align: right;
+	width: 9.688rem;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	color: white;
+	font-size: 1.125rem;
+}
+.button-watch {
+	text-align: left;
+	width: 9.688rem;
+	font-size: 1.125rem;
 }
 .half .watch{
 	text-align: left;
 	padding: 1rem 0.938rem;
 	font-weight: 500;
+
 }
 .buttons {
 	display: inline-flex;
@@ -96,19 +113,84 @@
 	line-height: 1.33;
 	padding-top: 13rem;
 }
+.cases {
+	text-align: center;
+}
 .cases .content h2{
 	text-align: center;
 	font-size: 2rem;
 	margin-top: 6rem;
 }
 .cases .devices {
-    width: 13.3333333%;
+    width: 20%;
     display: inline-block;
     /* styles to assist with debugging */
-    border: 1px solid black;
     box-sizing: border-box;
     height: 4em;
-  	img
+}
+.footer-img{
+	max-height: 127px;
+	padding: 40px;
+}
+.fa-twitter {
+	color: #55acee;
+}
+.fa-facebook {
+	color: #4c66a4;
+}
+.fa-instagram {
+	color: #3f729b;
+}
+.icons{
+	display: inline-flex;	
+	padding: 50px;
+	margin: 0 auto; 
+	text-align: center;
+}
+.footer-icon{
+	padding: 15px;
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	border: solid 1px;
+}
+.buy {
+	background-image: url("../img/buy-now.jpg");
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	padding-top: 5.250rem;
+	overflow: auto;
+	padding-bottom: 20px;
+}
+.buy-info {
+	font-weight: 400;
+	font-size: 1.563rem;
+	color: #f15a29;
+	margin: 2.5rem 0px 1.875rem;
+	padding-left: 260px;
+}
+.buy-p {
+	padding-left: 260px;
+	font-weight: 300;
+	font-size: 1.15rem;
+	line-height: 1.5;
+	color: #4c5058;
+	margin-bottom: 1.250rem;
+	width: 15rem;
+}
+.button-buy {
+	width: 9.688rem;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	color: white;
+	font-size: 1.125rem;
+	margin-left: 260px;
 }
 
 
